@@ -25,7 +25,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar bg-body-tertiary fixed-top">
+      <nav class="navbar navbar-expand-md navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img src="./assets/logo.png" alt="imagem_logo_serenatto"
@@ -198,8 +198,91 @@
         </div>
       </section>
 
-      <section>
-        <div>cards</div>
+      <section class="py-5">
+        <h2 class="fw-bold text-center pb-1">Nossos Produtos</h2>
+        <div class="row mx-0">
+          <div
+            class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4"
+          >
+            <div class="card border-0 btn" data-bs-toggle="modal" data-bs-target="#modal-1" style="width: 18rem">
+              <img
+                src="./assets/produtos-cafe-tradicional.png"
+                class="card-img-top"
+                alt="Imagem do Cafés Tradicional"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text texto-bold">Cafés Tradicional</h3>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4"
+          >
+            <div class="card border-0 btn" data-bs-toggle="modal" data-bs-target="#modal-2" style="width: 18rem">
+              <img
+                src="./assets/produtos-cafe-especial.png"
+                class="card-img-top"
+                alt="Imagem do Cafés Especial"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text texto-bold">Cafés Especiais</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="card border-0 btn" data-bs-toggle="modal" data-bs-target="#modal-3" style="width: 18rem">
+              <img
+                src="./assets/produtos-vitaminas.png"
+                class="card-img-top"
+                alt="Imagem do Smoothies e Vitaminais"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text texto-bold">Smoothies e Vitaminais</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="card border-0 btn" data-bs-toggle="modal" data-bs-target="#modal-4" style="width: 18rem">
+              <img
+                src="./assets/produtos-paes.png"
+                class="card-img-top"
+                alt="Imagem do Pães e Foccacias"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text texto-bold">Pães e Foccacias</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="card border-0 btn" data-bs-toggle="modal" data-bs-target="#modal-5" style="width: 18rem">
+              <img
+                src="./assets/produtos-doces.png"
+                class="card-img-top"
+                alt="Imagem do Doces"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text texto-bold">Doces</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="card border-0 btn" data-bs-toggle="modal" data-bs-target="#modal-6" style="width: 18rem">
+              <img
+                src="./assets/produtos-salgados.png"
+                class="card-img-top"
+                alt="Imagem do Salgados"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-text texto-bold">Salgados</h3>
+              </div>
+            </div>
+        </div>
+
       </section>
 
       <section
@@ -214,7 +297,7 @@
       aria-labelledby="offcanvasRightLabel"
     >
       <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Café & Bistrô</h5>
+        <h5 id="offcanvasRightLabel" class="texto-bold">Café & Bistrô</h5>
         <button
           type="button"
           class="btn-close text-reset"
@@ -227,7 +310,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
-                class="accordion-button collapsed botao-padrao"
+                class="accordion-button collapsed botao-padrao texto-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -253,7 +336,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button
-                class="accordion-button collapsed botao-padrao"
+                class="accordion-button collapsed botao-padrao texto-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -278,7 +361,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button
-                class="accordion-button collapsed botao-padrao"
+                class="accordion-button collapsed botao-padrao texto-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -311,7 +394,7 @@
       aria-labelledby="offcanvasRightLabel"
     >
       <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Buffet</h5>
+        <h5 id="offcanvasRightLabel" class="texto-bold">Buffet</h5>
         <button
           type="button"
           class="btn-close text-reset"
@@ -320,56 +403,54 @@
         ></button>
       </div>
       <div class="offcanvas-body">
-        <div class="offcanvas-body">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button
-                  class="accordion-button collapsed botao-padrao"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="false"
-                  aria-controls="collapseOne"
-                >
-                  Eventos
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed botao-padrao texto-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
               >
-                <div class="accordion-body">
-                  Organizamos buffet com cardápios variados e personalizados
-                  para casamentos, festas de aniversário e outros eventos!
-                </div>
+                Eventos
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Organizamos buffet com cardápios variados e personalizados para
+                casamentos, festas de aniversário e outros eventos!
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed botao-padrao"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Catering
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample"
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed botao-padrao texto-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
               >
-                <div class="accordion-body">
-                  Oferecemos serviço de alimentação variada para coffee breaks,
-                  produções e bastidores.
-                </div>
+                Catering
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Oferecemos serviço de alimentação variada para coffee breaks,
+                produções e bastidores.
               </div>
             </div>
           </div>
@@ -384,7 +465,7 @@
       aria-labelledby="offcanvasRightLabel"
     >
       <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Delivery</h5>
+        <h5 id="offcanvasRightLabel" class="texto-bold">Delivery</h5>
         <button
           type="button"
           class="btn-close text-reset"
@@ -393,61 +474,176 @@
         ></button>
       </div>
       <div class="offcanvas-body">
-        <div class="offcanvas-body">
-          <div class="offcanvas-body">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button
-                    class="accordion-button collapsed botao-padrao"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="false"
-                    aria-controls="collapseOne"
-                  >
-                    Encomendas para eventos
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    Produzimos e entregamos os itens de café de nosso cardápio
-                    em grandes quantidades para seus eventos! Basta entrar em
-                    contato e fazer a reserva com 72h de antecedência.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button
-                    class="accordion-button collapsed botao-padrao"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Entrega por aplicativos
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    Entregamos pelos aplicativos Ifood e Rappi. Consulte nosso
-                    cardápio por lá e faça seu pedido!
-                  </div>
-                </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed botao-padrao texto-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Encomendas para eventos
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Produzimos e entregamos os itens de café de nosso cardápio em
+                grandes quantidades para seus eventos! Basta entrar em contato e
+                fazer a reserva com 72h de antecedência.
               </div>
             </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed botao-padrao texto-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Entrega por aplicativos
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Entregamos pelos aplicativos Ifood e Rappi. Consulte nosso
+                cardápio por lá e faça seu pedido!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-1 -->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title texto-bold" id="exampleModalLabel">Cafés Tradicionais</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-70 d-block mx-auto mb-3" src="./assets/produtos-cafe-tradicional.png" alt="Imagem Cafés Tradicionais" class="img-fluid mb-3">
+            <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida. Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+            <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0 texto-bold" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-2 -->
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title texto-bold" id="exampleModalLabel">Cafés Especiais</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-70 d-block mx-auto mb-3" src="./assets/produtos-cafe-especial.png" alt="Imagem Cafés Especiais" class="img-fluid mb-3">
+            <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados de alta qualidade e técnicas de preparo precisas.</p>
+            <p>Entre os cafés especiais do Café & Bistrô Serenatto, destacamos o aeropress, que proporciona uma bebida intensa e aromática. O Hario V60 resulta em um café suave e limpo, valorizando as notas dos grãos. Também oferecemos opções geladas, como o café com gelo e leite, uma escolha refrescante e saborosa.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0 texto-bold" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-3 -->
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title texto-bold" id="exampleModalLabel">Smoothies e Vitaminas</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-70 d-block mx-auto mb-3" src="./assets/produtos-vitaminas.png" alt="Imagem Smoothies e Vitaminas" class="img-fluid mb-3">
+            <p>Somos conhecidos também por nossas vitaminas e smoothies, preparados com frutas frescas e ingredientes selecionados, garantindo bebidas saborosas, nutritivas e refrescantes.</p>
+            <p>Entre as opções, destacamos os smoothies de frutas vermelhas, que combinam sabores intensos e refrescantes. Também oferecemos vitaminas cremosas, preparadas com frutas, leite e outros ingredientes especiais, são perfeitas para qualquer momento do dia.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0 texto-bold" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal-4 -->
+    <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title texto-bold" id="exampleModalLabel">Pães e Focaccias</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-70 d-block mx-auto mb-3" src="./assets/produtos-paes.png" alt="Imagem Pães e Focaccias" class="img-fluid mb-3">
+            <p>Somos conhecidos também por nossos pães e focaccias, preparados com ingredientes selecionados e muito cuidado, garantindo massas macias, saborosas e fresquinhas.</p>
+            <p>Entre as opções, destacamos nossas focaccias artesanais, com massa leve e crocante, disponíveis em diferentes sabores. Também oferecemos pães variados, perfeitos para acompanhar cafés ou tornar qualquer momento ainda mais especial.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0 texto-bold" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-5 -->
+    <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title texto-bold" id="exampleModalLabel">Doces</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-70 d-block mx-auto mb-3" src="./assets/produtos-doces.png" alt="Imagem Doces" class="img-fluid mb-3">
+            <p>Somos conhecidos também por nossos doces, preparados com ingredientes selecionados e muito carinho, garantindo sabores deliciosos e uma apresentação especial.</p>
+            <p>Entre as opções, destacamos nossos bolos, tortas e sobremesas artesanais, perfeitos para acompanhar um café ou adoçar qualquer momento do dia.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0 texto-bold" data-bs-dismiss="modal">Fechar janela</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-6 -->
+    <div class="modal fade" id="modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title texto-bold" id="exampleModalLabel">Salgados</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-70 d-block mx-auto mb-3" src="./assets/produtos-salgados.png" alt="Imagem Salgados" class="img-fluid mb-3">
+            <p>Também oferecemos uma variedade de salgados, preparados com ingredientes frescos e selecionados, garantindo opções saborosas e preparadas com muito cuidado.</p>
+            <p>Entre as opções, destacamos nossas tortas salgadas, quiches e salgados artesanais, ideais para um lanche rápido ou para acompanhar uma bebida do nosso cardápio.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary botao-padrao border-0 texto-bold" data-bs-dismiss="modal">Fechar janela</button>
           </div>
         </div>
       </div>
