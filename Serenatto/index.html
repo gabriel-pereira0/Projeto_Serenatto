@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body data-bs-theme="light">
     <!-- INICIO HEADER -->
     <header>
       <nav class="navbar navbar-expand-md navbar bg-body-tertiary fixed-top">
@@ -72,7 +72,7 @@
                   <a class="nav-link" href="#">Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
+                  <a class="nav-link" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"
@@ -81,9 +81,9 @@
                         class="form-check-input"
                         type="checkbox"
                         role="switch"
-                        id="switchCheckDefault"
+                        id="modo-noturno"
                       />
-                      <label class="form-check-label" for="switchCheckDefault"
+                      <label class="form-check-label" for="modo-noturno"
                         >Modo Noturno</label
                       >
                     </div></a
@@ -339,6 +339,96 @@
       ></section>
       <!-- FINAL BANNER 3 -->
     </main>
+
+    <!-- FORMULÁRIO DE CONTATO -->
+    <section class="py-4 conainter">
+      <div class="row mx-0">
+        <div class="col-10 col-xl-8 mx-auto">
+          <div class="border border-2 rounded-3 p-3">
+            <h3 class="texto-bold p-3">Entre em contato:</h3>
+            <form id="contato">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingName"
+                  placeholder="Digite seu nome"
+                />
+                <label for="floatingName">Nome</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingEmail"
+                  placeholder="name@exemplo.com"
+                />
+                <label for="floatingEmail">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="floatingPhone"
+                  placeholder="Telefone"
+                />
+                <label for="floatingPhone">Telefone</label>
+              </div>
+              <select
+                class="form-select mb-3"
+                aria-label="Default select example"
+              >
+                <option selected>Preferência de contato</option>
+                <option value="1">Email</option>
+                <option value="2">WhatsApp</option>
+                <option value="3">Ligação</option>
+              </select>
+              <label for="nivel-satisfacao" class="form-label"
+                >Nível de satisfação</label
+              >
+              <input type="range" class="form-range" id="nivel-satisfacao" />
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Deseja receber novidades e promoções por email?
+                </label>
+              </div>
+              <button
+                type="button"
+                class="btn botao-padrao texto-bold w-100 mt-3 py-3"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FINAL FORMULÁRIO DE CONTATO -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <section
+        class="container d-flex justify-content-center align-items-center gap-4 p-4 pb-0"
+      >
+        <a href="#" class="bi bi-whatsapp text-dark text-decoration-none"></a>
+        <a href="#" class="bi bi-instagram text-dark text-decoration-none"></a>
+        <a href="#" class="bi bi-twitter-x text-dark text-decoration-none"></a>
+      </section>
+      <div>
+        <p class="text-center p-3 m-0">
+          <i class="bi bi-c-circle"></i>
+          <span id="ano"></span> Serenatto. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- FINAL FOOTER -->
+
     <!-- Canvas 1 -->
     <div
       class="offcanvas offcanvas-end"
@@ -742,6 +832,7 @@
         </div>
       </div>
     </div>
+
     <!-- Modal-4 -->
     <div
       class="modal fade"
@@ -902,5 +993,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="./JS/script.js"></script>
   </body>
 </html>

@@ -3,6 +3,7 @@ body {
   --marrom-escuro: #816d4f;
   --marrom-claro: #b29463;
   --preto: #000000;
+  --branco: #ffffff;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -55,4 +56,38 @@ input[type='checkbox']:focus {
 
 .texto-bold {
   font-weight: bold;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
+
+footer {
+  background-color: var(--marrom-claro);
+  color: var(--preto);
+}
+
+footer section a {
+  font-size: 1.5rem;
+}
+
+[data-bs-theme='dark'] {
+  color: var(--branco);
+  .nav-link,
+  .card-body,
+  .offcanvas-body,
+  .accordion-body,
+  .modal-title,
+  .modal-content,
+  .btn {
+    --bs-nav-link-color: var(--branco);
+    --bs-card-color: var(--branco);
+    --bs-offcanvas-color: var(--branco);
+    --bs-body-color: var(--branco);
+    --bs-heading-color: var(--branco);
+    --bs-modal-title-line-height: var(--branco);
+    --bs-body-color: var(--branco);
+    --bs-modal-color: var(--branco);
+    --bs-body-color: var(--branco);
+  }
 }
