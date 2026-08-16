@@ -4,7 +4,7 @@ Projeto desenvolvido com o objetivo de praticar e aprimorar conhecimentos em **B
 
 # 🌐 Projeto online
 
-👉 Acesse o projeto: [Serenatto](https://projeto-serenatto-six.vercel.app/)
+👉 Acesse o projeto: <a href="https://projeto-serenatto-six.vercel.app/" target="_blank">Serenatto</a>
 
 # 📖 Sobre o projeto
 
