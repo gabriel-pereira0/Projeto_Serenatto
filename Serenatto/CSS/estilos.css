@@ -35,7 +35,7 @@ input[type='checkbox']:focus {
 .banner1,
 .banner2,
 .banner3 {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -97,5 +97,13 @@ footer section a {
     --bs-body-color: var(--branco);
     --bs-modal-color: var(--branco);
     --bs-body-color: var(--branco);
+  }
+}
+
+/* Responsividade Mobile */
+@media (max-width: 768px) {
+  .banners {
+    height: 70vh;
+    background-attachment: scroll;
   }
 }
